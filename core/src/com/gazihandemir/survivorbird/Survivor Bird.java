@@ -95,7 +95,7 @@ class SurvivorBird extends ApplicationAdapter {
 
     @Override
     public void render() {
-
+            //
         batch.begin();
         batch.draw(background, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         if (gameState == 1) {
